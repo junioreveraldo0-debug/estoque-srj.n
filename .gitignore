@@ -1,0 +1,17 @@
+# Ignorar dependências
+node_modules/
+npm-debug.log*
+.DS_Store
+
+# Build da Vercel / Next
+.next/
+out/
+
+# Ambiente e variáveis secretas
+.env
+.env.local
+.env.production
+.vercel/
+
+# Logs
+*.log
